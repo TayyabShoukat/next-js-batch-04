@@ -62,6 +62,14 @@ export default function Home() {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
               molestiae cupiditate quo, ullam ipsum earum architecto
             </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              molestiae cupiditate quo, ullam ipsum earum architecto
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+              molestiae cupiditate quo, ullam ipsum earum architecto
+            </p>
           </div>
         </div>
       </div>
