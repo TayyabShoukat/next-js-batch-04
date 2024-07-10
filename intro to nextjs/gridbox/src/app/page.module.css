@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #003554;
+  text-align: center;
+  color: white;
+  /* justify-content: center;  */
+  /* align-items: center; */
+  /* place-items: center; */
+  /* place-content: center; */
+  /* place-self: center; */
+}
+
+.innerData {
+  padding: 50px;
+  border: 1px solid black;
+  font-size: 38px;
+}
+
+.innerData:hover {
+  background-color: aquamarine;
+  color: black;
+}
