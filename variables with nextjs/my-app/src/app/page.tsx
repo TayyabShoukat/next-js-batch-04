@@ -21,9 +21,25 @@ export default function Page() {
           <p>{item}</p>
         ))}
       </div>
+      <div className={styles.d}>
+        {arr.map((item) => (
+          <p>{item}</p>
+        ))}
+      </div>
+      <div className={styles.d}>
+        {arr.map((item) => (
+          <p>{item}</p>
+        ))}
+      </div>
 
-      <div>
-        <p className={styles.p}>{arr1.filter((item) => item % 2 == 0)}</p>
+      <div className={styles.container}>
+        {arr1
+          .filter((item) => item % 2 === 0)
+          .map((item, index) => (
+            <p key={index} className={styles.p}>
+              {item}
+            </p>
+          ))}
       </div>
     </div>
   );

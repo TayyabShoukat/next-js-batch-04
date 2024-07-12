@@ -4,7 +4,11 @@
   justify-content: center;
 }
 
-.p {
+.container {
   display: flex;
   gap: 20px;
+}
+
+.p{
+  margin: 10px;
 }
