@@ -1,0 +1,22 @@
+.container {
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid gray;
+}
+
+.breakfastHeading {
+  text-align: center;
+}

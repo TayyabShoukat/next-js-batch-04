@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "slug": "breakfast",
+    "description": "A delightful breakfast experience sets the tone for a vibrant day ahead. Imagine waking up to the enticing aroma of freshly brewed coffee, complemented by a spread of warm, golden pancakes dripping with syrup. Picture a table adorned with a colorful array of fresh fruits, a medley of flavors bursting with vitality. Whether it's the comforting simplicity of scrambled eggs and buttered toast or the wholesome goodness of yogurt with granola and berries, breakfast is a celebration of nourishment and joy. It's a moment to savor, to relish the first bites of the day that fuel both body and spirit. So, let each morning unfold with the promise of a delicious breakfast, a ritual that turns ordinary moments into extraordinary beginnings.",
+    "src": "/Images/breakfast.png"
+  },
+  {
+    "id": 2,
+    "slug": "dinner",
+    "description": "As the sun sets, casting warm hues across the horizon, dinner becomes the heartwarming conclusion to the day's journey. A symphony of enticing aromas wafts through the air, beckoning you to the dining table. Picture a scene of culinary delight – perhaps a succulent roast, perfectly seasoned and golden brown, or a hearty bowl of pasta adorned with rich, savory sauce. The ambiance is set, with soft candlelight casting a gentle glow, creating an inviting space for shared stories and laughter. Dinner is not merely a meal; it's a moment of connection, a time to unwind and appreciate the flavors that dance on the palate. Whether it's a cozy family gathering or an intimate dinner for two, each dish is a creation, a masterpiece crafted with care and creativity. So, let the evening unfold with the promise of a delectable dinner, a time to nourish both body and soul, making each bite a cherished memory.",
+    "src": "/Images/dinner.png"
+  },
+  {
+    "id": 3,
+    "slug": "lunch",
+    "description": "As the sun sets, casting warm hues across the horizon, dinner becomes the heartwarming conclusion to the day's journey. A symphony of enticing aromas wafts through the air, beckoning you to the dining table. Picture a scene of culinary delight – perhaps a succulent roast, perfectly seasoned and golden brown, or a hearty bowl of pasta adorned with rich, savory sauce. The ambiance is set, with soft candlelight casting a gentle glow, creating an inviting space for shared stories and laughter. Dinner is not merely a meal; it's a moment of connection, a time to unwind and appreciate the flavors that dance on the palate. Whether it's a cozy family gathering or an intimate dinner for two, each dish is a creation, a masterpiece crafted with care and creativity. So, let the evening unfold with the promise of a delectable dinner, a time to nourish both body and soul, making each bite a cherished memory.",
+    "src": "/Images/lunch.png"
+  }
+]
