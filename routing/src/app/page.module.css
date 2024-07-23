@@ -1,0 +1,13 @@
+.container{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.heading{
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
