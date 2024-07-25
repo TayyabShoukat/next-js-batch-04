@@ -15,8 +15,29 @@
 
 .card {
   border: 1px solid gray;
+  height: 390px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
+
+.card:hover{
+  background-color: #f5ebe0;
+}
+
+
 
 .breakfastHeading {
   text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.image {
 }

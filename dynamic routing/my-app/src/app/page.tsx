@@ -9,9 +9,9 @@ export default function Home() {
       <h1 className={styles.heading}>Hotel Website</h1>
       <div className={styles.cardContainer}>
         {jsondata?.map((card, index) => (
-          <Link href={`/products/${card.slug}`} key={index}>
+          <Link href={`/products/${card.slug}`} key={index} className={styles.link}>
             <div className={styles.card}>
-              <Image src={card?.src} alt="no image" height={200} width={200} />
+              <Image src={card?.src} alt="no image" height={300} width={300} className={styles.image}/>
               <h2 className={styles.breakfastHeading}>{card?.slug}</h2>
             </div>
           </Link>

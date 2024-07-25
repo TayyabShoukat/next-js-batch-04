@@ -10,9 +10,9 @@ export default function Page({ params }: any) {
     <div>
       {result?.map((item: any, index: any) => (
         <div key={index} className={styles.container}>
-          <h1>{item?.slug}</h1>
+          <h1 className={styles.title}>{item?.slug}</h1>
           <Image src={item?.src} alt="no image" height={800} width={800} />
-          <h3>{item?.description}</h3>
+          <p className={styles.description}>{item?.description}</p>
         </div>
       ))}
     </div>
