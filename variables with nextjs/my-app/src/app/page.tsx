@@ -15,6 +15,8 @@ export default function Page() {
       <p>Subtract is {a - b}</p>
       <p>Subtract is {a * b}</p>
       <p>Subtract is {a / b}</p>
+      <p>Subtract is {a / b}</p>
+      <p>Subtract is {a / b}</p>
 
       <div className={styles.d}>
         {arr.map((item) => (
