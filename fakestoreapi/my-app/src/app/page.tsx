@@ -8,9 +8,10 @@ export default function Home() {
 
   const apiGet = async () => {
     try {
-      const data = await axios.get("https://fakestoreapi.com/products");
-      setState(data?.data);
-      console.log(data?.data);
+      // const data = await axios.get("https://fakestoreapi.com/products");
+      const data = await axios.get("https://dummyjson.com/recipes");
+      setState(data?.data?.recipes);
+      console.log(data?.data?.recipes);
     } catch (error) {
       console.log(error);
     } finally {
@@ -30,9 +31,25 @@ export default function Home() {
             <div className={styles.cardImage}>
               <img src={item?.image} alt="no image" height={100} width={200} />
             </div>
-            <div className={styles.cardDetails}>{item?.title}</div>
-            <div className={styles.description}>{item?.description}</div>
-            <div className={styles.price}>{item?.price}</div>
+            <div className={styles.cardDetails}>{item?.name}</div>
+            <div className={styles.description}>{item?.rating}</div>
+            <div className={styles.price}>{item?.prepTimeMinutes}</div>
+            <div className={styles.cuisine}>{item?.cuisine}</div>
+            <div className={styles.ingredients}>
+              {item?.ingredients?.map((item, index) => (
+                <div key={index}>{item}</div>
+              ))}
+            </div>
+            <div className={styles.instructions}>
+              {item?.instructions?.map((item, index) => (
+                <div key={index}>{item}</div>
+              ))}
+            </div>
+            <div className={styles.tags}>
+              {item?.tags?.map((item, index) => (
+                <div key={index}>{item}</div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
